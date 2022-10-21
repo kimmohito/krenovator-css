@@ -53,19 +53,25 @@ td{
 <table>
 <tr>
 <td>
+
 ```html
 <h1>Hello Krenovator!</h1>
 ```
+
 </td>
 <td>
+
 ```css
 h1{
     color: blue;
 }
 ```
+
 </td>
 <td>
-<h1 style="color: blue; margin: 0; padding: 0; border: none;">Hello Krenovator!</h1>
+
+<h1 style="color: blue; margin: 0; padding: 16px; border: none; border-radius: 3px; background: #f6f8fa; ">Hello Krenovator!</h1>
+
 </td>
 </tr>
 </table>
