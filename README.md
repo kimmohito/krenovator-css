@@ -39,6 +39,31 @@ selector {
 }
 ```
 
+HTML
+```html
+<h1>Hello Krenovator!</h1>
+```
+CSS:
+```css
+h1{
+    color: blue;
+}
+```
+Output:
+<div style="padding: 16px; background: #f6f8fa; border-radius: 3px;">
+<h1 style="color: blue; margin: 0; padding: 0;">Hello Krenovator!</h1>
+</div>
+
+
+a
+
+
+[ Example 1: Inline CSS ](example/1-inline-css/)
+
+[ Example 2: Internal CSS ](example/2-internal-css/)
+
+[ Example 3: External CSS ](example/3-external-css/)
+
 
 
 
