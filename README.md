@@ -45,6 +45,7 @@ table{
 }
 td{
     padding: 8px;
+    width: auto;
 }
 </style>
 
