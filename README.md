@@ -52,19 +52,19 @@ td{
 <table>
 <tr>
 <td>
-<code>
-h1{<br><span style="text-indent: 40px">color: blue;</span><br>}
-</code>
-</td>
-<td>
-<code>
+```html
 <h1>Hello Krenovator!</h1>
-</code>
+```
 </td>
 <td>
-<code>
+```css
+h1{
+    color: blue;
+}
+```
+</td>
+<td>
 <h1 style="color: blue; margin: 0; padding: 0; border: none;">Hello Krenovator!</h1>
-</code>
 </td>
 </tr>
 </table>
