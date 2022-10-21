@@ -31,7 +31,6 @@ The common misconseption, is that CSS is a programming language, but is incorrec
 
 ## CSS Syntax
 
-
 ```css
 selector {
     property-1: value-1;
@@ -39,20 +38,39 @@ selector {
 }
 ```
 
-HTML
-```html
-<h1>Hello Krenovator!</h1>
-```
-CSS:
-```css
-h1{
-    color: blue;
+
+<style>
+table{
+    width: 100%;
 }
-```
-Output:
-<div style="padding: 16px; background: #f6f8fa; border-radius: 3px;">
-<h1 style="color: blue; margin: 0; padding: 0;">Hello Krenovator!</h1>
-</div>
+td{
+    padding: 8px;
+}
+</style>
+
+
+<table>
+<tr>
+<td>
+<code>
+h1{<br><span style="text-indent: 40px">color: blue;</span><br>}
+</code>
+</td>
+<td>
+<code>
+<h1>Hello Krenovator!</h1>
+</code>
+</td>
+<td>
+<code>
+<h1 style="color: blue; margin: 0; padding: 0; border: none;">Hello Krenovator!</h1>
+</code>
+</td>
+</tr>
+</table>
+
+
+
 
 
 a
